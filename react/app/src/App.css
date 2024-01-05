@@ -1,0 +1,27 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.products{
+  margin-top: 8%;
+}
+ion-icon {
+  font-size:1.3rem;
+}
+
+
+
+/* css for responsiveness */
+
+@media (max-width:470px) {
+  .products{
+         margin-top: 12vmax;
+  }
+  .name{
+    display: none;
+  }
+  .form{
+    width: 55vw;
+  }
+  
+}
